@@ -13,7 +13,7 @@ _Similar to classic chess with the following changes:_
 * **Check and checkmate:** To accommodate the case of multiple Kings, the nature of check is adjusted according to the following rules:
   * If any King of the current player is in check, the only legal moves are those that _decrease the number of checked Kings_.
   * If no such move is available, the result is dependent upon the number of Kings in check. If _all_ Kings of this player are in check, this is checkmate, and the checking player wins. If the number is any fewer, the checked player _loses a turn_, allowing the option of the checking player to _capture a King_ or make any other legal move. (Technically, two Kings could be captured in one move if there is a piece in Penetration mode!)
-* _**TBD - Pawn movement** (possible additional change to encourage more frequent promotion to Kings/Aurors): Pawns can move either one or two spaces in the forward direction at any time rather than just on the second/seventh rank;_ en passant _is possible on any two-space jump where any enemy pawn is left or right of the final location._
+* _**TBD - Pawn movement** (possible additional change to encourage more frequent promotion to Kings/Aurors): Pawns can move either one or two spaces in the forward direction at any time rather than just on the second/seventh rank;_ en passant _is possible on any two-space jump where an enemy pawn is left or right of the final location._
 
 
 _I claim ownership of the ideas and associated code in this repository._
