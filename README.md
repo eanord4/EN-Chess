@@ -1,6 +1,10 @@
 # EN-Chess
 Proof of concept for a new chess variant!
 
+The goal of creating this game is to modify chess in a way that is not too dissimilar from classic chess but also introduces some exciting new properties and possibilities. The emphasis is on changing a few assumptions of gameplay rather than requiring the user to learn patterns of movement of exotic pieces.
+
+The code in this repository allows also easily allows adding more variants, introducing pieces and properties as necessary, initially accommodating just standard and EN chess but opening the door to more in the future. A rudimentary representation of the board and available moves is included as a minimalist way to visually execute and explore gameplay.
+
 
 # Rules of EN Chess:
 _Similar to classic chess with the following changes:_
