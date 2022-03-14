@@ -18,9 +18,10 @@ _Similar to classic chess, with the following changes:_
   * **Stunted mode:** If a long-range piece (Bishop, Rook, or Queen) is adjacent (in any of the eight directions) to more enemy Aurors than friendly Aurors (e.g. only the starting enemy Auror), then it loses its long-range abilities, only moving one square at a time in any of the directions it would normally move.
   * **King-Auror swaps:** Aurors can also _swap places with a King of the same army at any time_, often acting as an escape mechanism or perhaps to plant an Auror in a location that thwarts enemy movement. (In the case of multiple Kings or Aurors, _any_ Auror can swap places with _any_ King of the same army.)
 * **Check and checkmate:** To accommodate the case of multiple Kings, the nature of check is adjusted according to the following rules:
-  * If any King of the current player is in check, the only legal moves are those that _decrease the number of checked Kings_.
-  * If no such move is available, the result is dependent upon the number of Kings in check. If _all_ Kings of this player are in check, this is checkmate, and the checking player wins. If the number is any fewer, the checked player _loses a turn_, allowing the option of the checking player to _capture a King_ or make any other legal move. (Technically, two Kings could be captured in one move if there is a piece in Penetration mode!)
+  * **Legal moves:** If any King of the current player is in check, the only legal moves are those that _decrease the number of checked Kings_.
+  * **Checkmate and Partial Checkmate:** If no such move is available, the result is dependent upon the number of Kings in check. If _all_ Kings of this player are in check, this is checkmate, and the checking player wins. If the number is any fewer, the checked player _loses a turn_, allowing the option of the checking player to _capture a King_ or make any other legal move. (Technically, two Kings could be captured in one move if there is a piece in Penetration mode!)
 * _**TBD - Pawn movement** (possible additional change to encourage more frequent promotion to Kings/Aurors): Pawns can move either one or two spaces in the forward direction at any time rather than just on the second/seventh rank;_ en passant _is possible on any two-space jump where an enemy pawn is left or right of the final location._
 
 ## Example: Initial board setup and display
-(Coming soon)
+Initial commands and board state for EN chess variant - shown here on my macOS Terminal
+![](en-chess-example.jpg)
