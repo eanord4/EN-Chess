@@ -67,4 +67,4 @@ The possible moves of White's Auror are shown below for a board where White's Qu
 
 Below, Black would like to castle. However, White's Queen is in Penetration mode, preventing a kingside castle. It is also attacking Black's queenside Rook, which is defended only by Black's queen, thus preventing queenside development.
 
-![](en-chess-queen-penetration)
+![](en-chess-queen-penetration.jpg)
