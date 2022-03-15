@@ -38,6 +38,7 @@ The code does not require any installation after download. For less-savvy users,
   * Online compiler: There will probably be a "Run" or "Execute" button—-just press that.
 5. Play!
 
+_Example of game start--Note that the quadruple "A" in the_ x _squares is just a decorative effect (for symmetry and alluding to the space-bending properties of the_ x _squares); as will all other squares, these can only hold one piece at a time._
 ![](en-chess-game-start.jpg)
 
 ## Usage and Gameplay
@@ -54,7 +55,7 @@ The `move` function will prevent illegal moves, advance the game as necessary, a
 
 Other functions, whose names _do_ need to be specified before the first argument, include the following, with arguments included below (optional arguments shown in `[square brackets]` along with their default value). These would be avoided in a competitive game but can help during the learning curve (and have been helpful for debugging purposes).
 * `display_piece_possible_moves piece_loc [perspective="White"]` - Annotate the board with all possible moves for the piece at the specified location.
-* `display_possible_moves_by_piece [perspective="White"]` - For each of the current player's pieces, display the board, annoted with all possible moves of that piece.
+* `display_possible_moves_by_piece [perspective="White"]` - For each of the current player's pieces, display the board, annotated with all possible moves of that piece.
 * `list_piece_possible_moves piece_loc` - List all possible moves for the piece at the specified location.
 * `list_all_possible_moves` - List all of the current player's possible moves.
 * `list_checks` - Provide a check status of `True` or `False` for each King on the board.
