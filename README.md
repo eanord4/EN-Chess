@@ -64,3 +64,7 @@ Other functions, whose names _do_ need to be specified before the first argument
 The possible moves of White's Auror are shown below for a board where White's Queen has been developed. This opens up the _d1_ (King-like movement) and _d2_ (Knight-like movement) squares; note as well that White's King is shown in parentheses to indicate the availability of a King-Auror swap move.
 
 ![](en-chess-auror-possible-moves.jpg)
+
+Below, Black would like to castle. However, White's Queen is in Penetration mode, preventing a kingside castle. It is also attacking Black's queenside Rook, which is defended only by Black's queen, thus preventing queenside development.
+
+![](en-chess-queen-penetration)
